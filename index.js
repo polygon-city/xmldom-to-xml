@@ -2,8 +2,6 @@ var _ = require("lodash");
 var XMLSerializer = require("xmldom").XMLSerializer;
 var xmlSerializer = new XMLSerializer();
 
-module.exports = xmldom2xml;
-
 var xmldom2xml = function(xmlDOM) {
   // TODO: Find a better node collection test than looking for nodeName
   if (!xmlDOM.nodeName) {
@@ -18,3 +16,5 @@ var xmldom2xml = function(xmlDOM) {
     return xmlSerializer.serializeToString(xmlDOM);
   }
 };
+
+module.exports = xmldom2xml;
