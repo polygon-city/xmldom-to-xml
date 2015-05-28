@@ -1,0 +1,27 @@
+{
+  "name": "xmldom-to-xml",
+  "version": "0.1.0",
+  "description": "Convert XML DOM to a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polygon-city/xmldom-to-xml"
+  },
+  "keywords": [
+    "xml",
+    "dom"
+  ],
+  "author": "Robin Hawkes <rob@vizicities.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polygon-city/xmldom-to-xml/issues"
+  },
+  "homepage": "https://github.com/polygon-city/xmldom-to-xml",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "xmldom": "^0.1.19"
+  }
+}
