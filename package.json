@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/polygon-city/xmldom-to-xml",
   "dependencies": {
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.15",
     "xmldom": "^0.1.19"
   }
 }
